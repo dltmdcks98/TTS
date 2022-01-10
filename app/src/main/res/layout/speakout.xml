@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498db"
+    android:weightSum="1"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/txtheader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight=".1"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="Speak Out!!!"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtTexttoSpeak"
+        android:layout_width="match_parent"
+        android:layout_weight=".5"
+        android:background="#fff"
+        android:textColor="#2c3e50"
+        android:text="Hi there!!!"
+        android:padding="5dp"
+        android:gravity="top|left"
+        android:layout_height="0dp"/>
+    <Button
+        android:id="@+id/btnspeakout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#e74c3c"
+        android:textColor="#fff"
+        android:text="SPEAK OUT"/>
+</LinearLayout>
