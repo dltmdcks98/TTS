@@ -27,12 +27,22 @@
         android:padding="5dp"
         android:gravity="top|left"
         android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#e74c3c"
+        android:text="go to setting"
+        android:textColor="#fff" />
+
     <Button
         android:id="@+id/btnspeakout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".1"
         android:background="#e74c3c"
-        android:textColor="#fff"
-        android:text="SPEAK OUT"/>
+        android:text="speake out"
+        android:textColor="#fff" />
 </LinearLayout>
