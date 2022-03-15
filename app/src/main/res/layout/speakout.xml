@@ -5,6 +5,7 @@
     android:background="#3498db"
     android:weightSum="1"
     android:orientation="vertical" >
+    //https://gamjatwigim.tistory.com/200?category=671262
     <TextView
         android:id="@+id/txtheader"
         android:layout_width="match_parent"
